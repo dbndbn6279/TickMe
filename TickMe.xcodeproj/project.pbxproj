@@ -1,0 +1,683 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		298B2C111FB8F801000615DE /* RegisterPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298B2C101FB8F801000615DE /* RegisterPageViewController.swift */; };
+		298B2C131FB8FB5C000615DE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298B2C121FB8FB5C000615DE /* LoginViewController.swift */; };
+		29BF4B461FB5756B00D8E328 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BF4B451FB5756B00D8E328 /* AppDelegate.swift */; };
+		29BF4B481FB5756B00D8E328 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BF4B471FB5756B00D8E328 /* ViewController.swift */; };
+		29BF4B4B1FB5756B00D8E328 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29BF4B491FB5756B00D8E328 /* Main.storyboard */; };
+		29BF4B4E1FB5756B00D8E328 /* TickMe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 29BF4B4C1FB5756B00D8E328 /* TickMe.xcdatamodeld */; };
+		29BF4B501FB5756B00D8E328 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29BF4B4F1FB5756B00D8E328 /* Assets.xcassets */; };
+		29BF4B531FB5756B00D8E328 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29BF4B511FB5756B00D8E328 /* LaunchScreen.storyboard */; };
+		29BF4B5E1FB5756B00D8E328 /* TickMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BF4B5D1FB5756B00D8E328 /* TickMeTests.swift */; };
+		29BF4B691FB5756B00D8E328 /* TickMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BF4B681FB5756B00D8E328 /* TickMeUITests.swift */; };
+		2C1936091FB95B960084D3F7 /* ControlPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1936081FB95B960084D3F7 /* ControlPanel.swift */; };
+		2C496DE31FC561C400DAE944 /* TickPhotoPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C496DE21FC561C400DAE944 /* TickPhotoPreview.swift */; };
+		2C496DE61FC56F4100DAE944 /* TickRatePanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C496DE51FC56F4100DAE944 /* TickRatePanel.swift */; };
+		2C50A5C91FF23A1D0049A72B /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C50A5C81FF23A1D0049A72B /* CheckBox.swift */; };
+		2C5B446D1FF3AF730093B272 /* ProfilePanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5B446C1FF3AF730093B272 /* ProfilePanel.swift */; };
+		2C5B446F1FF3B6B10093B272 /* OutlinedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5B446E1FF3B6B10093B272 /* OutlinedButton.swift */; };
+		2C5B44741FF3BA270093B272 /* ProfileImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5B44731FF3BA270093B272 /* ProfileImage.swift */; };
+		2C60626A1FF689B00069B00A /* SettingPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6062691FF689B00069B00A /* SettingPanel.swift */; };
+		2C60626C1FF697BF0069B00A /* EditProfilePanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C60626B1FF697BF0069B00A /* EditProfilePanel.swift */; };
+		2C93797A1FEE40920062B732 /* TickEventsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9379791FEE40920062B732 /* TickEventsPage.swift */; };
+		2CA071701FF3C507008DF754 /* BlockButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA0716F1FF3C507008DF754 /* BlockButton.swift */; };
+		2CFEBE951FC5122F00FB1BCD /* TickCameraPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFEBE941FC5122F00FB1BCD /* TickCameraPanel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29BF4B5A1FB5756B00D8E328 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29BF4B3A1FB5756B00D8E328 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29BF4B411FB5756B00D8E328;
+			remoteInfo = TickMe;
+		};
+		29BF4B651FB5756B00D8E328 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29BF4B3A1FB5756B00D8E328 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29BF4B411FB5756B00D8E328;
+			remoteInfo = TickMe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		298B2C101FB8F801000615DE /* RegisterPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPageViewController.swift; sourceTree = "<group>"; };
+		298B2C121FB8FB5C000615DE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		29BF4B421FB5756B00D8E328 /* TickMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TickMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29BF4B451FB5756B00D8E328 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		29BF4B471FB5756B00D8E328 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		29BF4B4A1FB5756B00D8E328 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		29BF4B4D1FB5756B00D8E328 /* TickMe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TickMe.xcdatamodel; sourceTree = "<group>"; };
+		29BF4B4F1FB5756B00D8E328 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29BF4B521FB5756B00D8E328 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		29BF4B541FB5756B00D8E328 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29BF4B591FB5756B00D8E328 /* TickMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TickMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29BF4B5D1FB5756B00D8E328 /* TickMeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickMeTests.swift; sourceTree = "<group>"; };
+		29BF4B5F1FB5756B00D8E328 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29BF4B641FB5756B00D8E328 /* TickMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TickMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29BF4B681FB5756B00D8E328 /* TickMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickMeUITests.swift; sourceTree = "<group>"; };
+		29BF4B6A1FB5756B00D8E328 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C1936081FB95B960084D3F7 /* ControlPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlPanel.swift; sourceTree = "<group>"; };
+		2C496DE21FC561C400DAE944 /* TickPhotoPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickPhotoPreview.swift; sourceTree = "<group>"; };
+		2C496DE51FC56F4100DAE944 /* TickRatePanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickRatePanel.swift; sourceTree = "<group>"; };
+		2C50A5C81FF23A1D0049A72B /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+		2C5B446C1FF3AF730093B272 /* ProfilePanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePanel.swift; sourceTree = "<group>"; };
+		2C5B446E1FF3B6B10093B272 /* OutlinedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlinedButton.swift; sourceTree = "<group>"; };
+		2C5B44731FF3BA270093B272 /* ProfileImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImage.swift; sourceTree = "<group>"; };
+		2C6062691FF689B00069B00A /* SettingPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingPanel.swift; sourceTree = "<group>"; };
+		2C60626B1FF697BF0069B00A /* EditProfilePanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfilePanel.swift; sourceTree = "<group>"; };
+		2C9379791FEE40920062B732 /* TickEventsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickEventsPage.swift; sourceTree = "<group>"; };
+		2CA0716F1FF3C507008DF754 /* BlockButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockButton.swift; sourceTree = "<group>"; };
+		2CFEBE941FC5122F00FB1BCD /* TickCameraPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickCameraPanel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29BF4B3F1FB5756B00D8E328 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29BF4B561FB5756B00D8E328 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29BF4B611FB5756B00D8E328 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29BF4B391FB5756B00D8E328 = {
+			isa = PBXGroup;
+			children = (
+				29BF4B441FB5756B00D8E328 /* TickMe */,
+				29BF4B5C1FB5756B00D8E328 /* TickMeTests */,
+				29BF4B671FB5756B00D8E328 /* TickMeUITests */,
+				29BF4B431FB5756B00D8E328 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29BF4B431FB5756B00D8E328 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29BF4B421FB5756B00D8E328 /* TickMe.app */,
+				29BF4B591FB5756B00D8E328 /* TickMeTests.xctest */,
+				29BF4B641FB5756B00D8E328 /* TickMeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29BF4B441FB5756B00D8E328 /* TickMe */ = {
+			isa = PBXGroup;
+			children = (
+				2C50A5C71FF239A70049A72B /* GuiClasses */,
+				2C19360A1FB95EEA0084D3F7 /* ControlPanel */,
+				29BF4B451FB5756B00D8E328 /* AppDelegate.swift */,
+				29BF4B471FB5756B00D8E328 /* ViewController.swift */,
+				29BF4B491FB5756B00D8E328 /* Main.storyboard */,
+				29BF4B511FB5756B00D8E328 /* LaunchScreen.storyboard */,
+				29BF4B4F1FB5756B00D8E328 /* Assets.xcassets */,
+				29BF4B541FB5756B00D8E328 /* Info.plist */,
+				29BF4B4C1FB5756B00D8E328 /* TickMe.xcdatamodeld */,
+			);
+			path = TickMe;
+			sourceTree = "<group>";
+		};
+		29BF4B5C1FB5756B00D8E328 /* TickMeTests */ = {
+			isa = PBXGroup;
+			children = (
+				29BF4B5D1FB5756B00D8E328 /* TickMeTests.swift */,
+				29BF4B5F1FB5756B00D8E328 /* Info.plist */,
+			);
+			path = TickMeTests;
+			sourceTree = "<group>";
+		};
+		29BF4B671FB5756B00D8E328 /* TickMeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				29BF4B681FB5756B00D8E328 /* TickMeUITests.swift */,
+				29BF4B6A1FB5756B00D8E328 /* Info.plist */,
+			);
+			path = TickMeUITests;
+			sourceTree = "<group>";
+		};
+		2C19360A1FB95EEA0084D3F7 /* ControlPanel */ = {
+			isa = PBXGroup;
+			children = (
+				2C5B446B1FF3AF600093B272 /* Profile Panel */,
+				2C9379781FEE40630062B732 /* Events Panel */,
+				2C496DE41FC56DCA00DAE944 /* CameraPanel */,
+				2C1936081FB95B960084D3F7 /* ControlPanel.swift */,
+			);
+			path = ControlPanel;
+			sourceTree = "<group>";
+		};
+		2C19360D1FB96BF60084D3F7 /* LoginPanel */ = {
+			isa = PBXGroup;
+			children = (
+				298B2C121FB8FB5C000615DE /* LoginViewController.swift */,
+				298B2C101FB8F801000615DE /* RegisterPageViewController.swift */,
+			);
+			path = LoginPanel;
+			sourceTree = "<group>";
+		};
+		2C496DE41FC56DCA00DAE944 /* CameraPanel */ = {
+			isa = PBXGroup;
+			children = (
+				2CFEBE941FC5122F00FB1BCD /* TickCameraPanel.swift */,
+				2C496DE21FC561C400DAE944 /* TickPhotoPreview.swift */,
+				2C496DE51FC56F4100DAE944 /* TickRatePanel.swift */,
+			);
+			path = CameraPanel;
+			sourceTree = "<group>";
+		};
+		2C50A5C71FF239A70049A72B /* GuiClasses */ = {
+			isa = PBXGroup;
+			children = (
+				2C5B44731FF3BA270093B272 /* ProfileImage.swift */,
+				2C5B44701FF3B73C0093B272 /* Buttons */,
+				2C19360D1FB96BF60084D3F7 /* LoginPanel */,
+			);
+			path = GuiClasses;
+			sourceTree = "<group>";
+		};
+		2C5B446B1FF3AF600093B272 /* Profile Panel */ = {
+			isa = PBXGroup;
+			children = (
+				2C5B446C1FF3AF730093B272 /* ProfilePanel.swift */,
+				2C6062691FF689B00069B00A /* SettingPanel.swift */,
+				2C60626B1FF697BF0069B00A /* EditProfilePanel.swift */,
+			);
+			path = "Profile Panel";
+			sourceTree = "<group>";
+		};
+		2C5B44701FF3B73C0093B272 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				2C50A5C81FF23A1D0049A72B /* CheckBox.swift */,
+				2C5B446E1FF3B6B10093B272 /* OutlinedButton.swift */,
+				2CA0716F1FF3C507008DF754 /* BlockButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		2C9379781FEE40630062B732 /* Events Panel */ = {
+			isa = PBXGroup;
+			children = (
+				2C9379791FEE40920062B732 /* TickEventsPage.swift */,
+			);
+			path = "Events Panel";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29BF4B411FB5756B00D8E328 /* TickMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29BF4B6D1FB5756B00D8E328 /* Build configuration list for PBXNativeTarget "TickMe" */;
+			buildPhases = (
+				29BF4B3E1FB5756B00D8E328 /* Sources */,
+				29BF4B3F1FB5756B00D8E328 /* Frameworks */,
+				29BF4B401FB5756B00D8E328 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TickMe;
+			productName = TickMe;
+			productReference = 29BF4B421FB5756B00D8E328 /* TickMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		29BF4B581FB5756B00D8E328 /* TickMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29BF4B701FB5756B00D8E328 /* Build configuration list for PBXNativeTarget "TickMeTests" */;
+			buildPhases = (
+				29BF4B551FB5756B00D8E328 /* Sources */,
+				29BF4B561FB5756B00D8E328 /* Frameworks */,
+				29BF4B571FB5756B00D8E328 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29BF4B5B1FB5756B00D8E328 /* PBXTargetDependency */,
+			);
+			name = TickMeTests;
+			productName = TickMeTests;
+			productReference = 29BF4B591FB5756B00D8E328 /* TickMeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		29BF4B631FB5756B00D8E328 /* TickMeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29BF4B731FB5756B00D8E328 /* Build configuration list for PBXNativeTarget "TickMeUITests" */;
+			buildPhases = (
+				29BF4B601FB5756B00D8E328 /* Sources */,
+				29BF4B611FB5756B00D8E328 /* Frameworks */,
+				29BF4B621FB5756B00D8E328 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29BF4B661FB5756B00D8E328 /* PBXTargetDependency */,
+			);
+			name = TickMeUITests;
+			productName = TickMeUITests;
+			productReference = 29BF4B641FB5756B00D8E328 /* TickMeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29BF4B3A1FB5756B00D8E328 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Yini Wang";
+				TargetAttributes = {
+					29BF4B411FB5756B00D8E328 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					29BF4B581FB5756B00D8E328 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 29BF4B411FB5756B00D8E328;
+					};
+					29BF4B631FB5756B00D8E328 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 29BF4B411FB5756B00D8E328;
+					};
+				};
+			};
+			buildConfigurationList = 29BF4B3D1FB5756B00D8E328 /* Build configuration list for PBXProject "TickMe" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29BF4B391FB5756B00D8E328;
+			productRefGroup = 29BF4B431FB5756B00D8E328 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29BF4B411FB5756B00D8E328 /* TickMe */,
+				29BF4B581FB5756B00D8E328 /* TickMeTests */,
+				29BF4B631FB5756B00D8E328 /* TickMeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29BF4B401FB5756B00D8E328 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29BF4B531FB5756B00D8E328 /* LaunchScreen.storyboard in Resources */,
+				29BF4B501FB5756B00D8E328 /* Assets.xcassets in Resources */,
+				29BF4B4B1FB5756B00D8E328 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29BF4B571FB5756B00D8E328 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29BF4B621FB5756B00D8E328 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29BF4B3E1FB5756B00D8E328 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C1936091FB95B960084D3F7 /* ControlPanel.swift in Sources */,
+				2C496DE61FC56F4100DAE944 /* TickRatePanel.swift in Sources */,
+				2C5B446F1FF3B6B10093B272 /* OutlinedButton.swift in Sources */,
+				2C5B446D1FF3AF730093B272 /* ProfilePanel.swift in Sources */,
+				298B2C111FB8F801000615DE /* RegisterPageViewController.swift in Sources */,
+				2C50A5C91FF23A1D0049A72B /* CheckBox.swift in Sources */,
+				29BF4B481FB5756B00D8E328 /* ViewController.swift in Sources */,
+				2C93797A1FEE40920062B732 /* TickEventsPage.swift in Sources */,
+				29BF4B461FB5756B00D8E328 /* AppDelegate.swift in Sources */,
+				2C5B44741FF3BA270093B272 /* ProfileImage.swift in Sources */,
+				2CFEBE951FC5122F00FB1BCD /* TickCameraPanel.swift in Sources */,
+				2C60626A1FF689B00069B00A /* SettingPanel.swift in Sources */,
+				2CA071701FF3C507008DF754 /* BlockButton.swift in Sources */,
+				2C60626C1FF697BF0069B00A /* EditProfilePanel.swift in Sources */,
+				298B2C131FB8FB5C000615DE /* LoginViewController.swift in Sources */,
+				29BF4B4E1FB5756B00D8E328 /* TickMe.xcdatamodeld in Sources */,
+				2C496DE31FC561C400DAE944 /* TickPhotoPreview.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29BF4B551FB5756B00D8E328 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29BF4B5E1FB5756B00D8E328 /* TickMeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29BF4B601FB5756B00D8E328 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29BF4B691FB5756B00D8E328 /* TickMeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29BF4B5B1FB5756B00D8E328 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29BF4B411FB5756B00D8E328 /* TickMe */;
+			targetProxy = 29BF4B5A1FB5756B00D8E328 /* PBXContainerItemProxy */;
+		};
+		29BF4B661FB5756B00D8E328 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29BF4B411FB5756B00D8E328 /* TickMe */;
+			targetProxy = 29BF4B651FB5756B00D8E328 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		29BF4B491FB5756B00D8E328 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29BF4B4A1FB5756B00D8E328 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		29BF4B511FB5756B00D8E328 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29BF4B521FB5756B00D8E328 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29BF4B6B1FB5756B00D8E328 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		29BF4B6C1FB5756B00D8E328 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29BF4B6E1FB5756B00D8E328 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6R23RQS2VE;
+				INFOPLIST_FILE = TickMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YIniWang.TickMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29BF4B6F1FB5756B00D8E328 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6R23RQS2VE;
+				INFOPLIST_FILE = TickMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YIniWang.TickMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		29BF4B711FB5756B00D8E328 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6R23RQS2VE;
+				INFOPLIST_FILE = TickMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YIniWang.TickMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TickMe.app/TickMe";
+			};
+			name = Debug;
+		};
+		29BF4B721FB5756B00D8E328 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6R23RQS2VE;
+				INFOPLIST_FILE = TickMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YIniWang.TickMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TickMe.app/TickMe";
+			};
+			name = Release;
+		};
+		29BF4B741FB5756B00D8E328 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6R23RQS2VE;
+				INFOPLIST_FILE = TickMeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YIniWang.TickMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TickMe;
+			};
+			name = Debug;
+		};
+		29BF4B751FB5756B00D8E328 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6R23RQS2VE;
+				INFOPLIST_FILE = TickMeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YIniWang.TickMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TickMe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29BF4B3D1FB5756B00D8E328 /* Build configuration list for PBXProject "TickMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29BF4B6B1FB5756B00D8E328 /* Debug */,
+				29BF4B6C1FB5756B00D8E328 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29BF4B6D1FB5756B00D8E328 /* Build configuration list for PBXNativeTarget "TickMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29BF4B6E1FB5756B00D8E328 /* Debug */,
+				29BF4B6F1FB5756B00D8E328 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29BF4B701FB5756B00D8E328 /* Build configuration list for PBXNativeTarget "TickMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29BF4B711FB5756B00D8E328 /* Debug */,
+				29BF4B721FB5756B00D8E328 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29BF4B731FB5756B00D8E328 /* Build configuration list for PBXNativeTarget "TickMeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29BF4B741FB5756B00D8E328 /* Debug */,
+				29BF4B751FB5756B00D8E328 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		29BF4B4C1FB5756B00D8E328 /* TickMe.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				29BF4B4D1FB5756B00D8E328 /* TickMe.xcdatamodel */,
+			);
+			currentVersion = 29BF4B4D1FB5756B00D8E328 /* TickMe.xcdatamodel */;
+			path = TickMe.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 29BF4B3A1FB5756B00D8E328 /* Project object */;
+}
